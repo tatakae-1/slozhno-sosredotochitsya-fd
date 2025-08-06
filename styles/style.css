@@ -81,7 +81,7 @@
 	font-weight: 400;
 	padding: 1px 14px;
 	background-color: transparent;
-	font-family: var(--main-font);
+	font-family: var(--main-font), sans-serif;
 	color: var(--accent-color);
 	border: 0;
 	text-transform: lowercase;
@@ -107,13 +107,11 @@
 
 .header__title {
 	text-shadow: 4px 4px var(--shadow-color);
-	/* align-self: self-start;
-	justify-self: start; */
 	margin-top: 6px;
 }
 
 .title {
-	font-family: var(--main-font);
+	font-family: var(--main-font), sans-serif;
 	font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 	color: var(--title-color);
 	font-weight: 700;
@@ -122,13 +120,12 @@
 
 .header__text {
 	justify-self: end;
-	/* align-self: self-start; */
 	margin-block-start: 8%;
 	block-size: min-content;
 }
 
 .content-title {
-	font-family: var(--main-font);
+	font-family: var(--main-font), sans-serif;
 	color: var(--h3-text-color);
 	background-color: var(--heading-bg-color);
 	font-weight: 700;
@@ -156,7 +153,7 @@
 }
 
 .about__heading {
-	font-family: var(--main-font);
+	font-family: var(--main-font), sans-serif;
 	color: var(--accent-color);
 	font-weight: 700;
 	font-size: 18px;
@@ -164,7 +161,7 @@
 }
 
 .content-text {
-	font-family: var(--main-font);
+	font-family: var(--main-font), sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	color: var(--main-text-color);
@@ -212,9 +209,6 @@
 
 .gallery-item {
 	inline-size: 100%;
-	/* block-size: 100%; */
-	/* object-fit: cover;
-	object-position: center; */
 }
 
 .footer {
@@ -288,7 +282,6 @@
 	.about {
 		grid-template-columns: 1fr 1fr 1fr;
 		gap: 24px;
-		/* grid-template-rows: repeat(2, min-content); */
 	}
 
 	.about__heading {
@@ -374,9 +367,7 @@
 		display: grid;
 		grid-column: span 3;
 		gap: 20px;
-		/* max-block-size: 780px; */
 		grid-template-columns: repeat(3, 1fr);
-		/* grid-template-rows: repeat(3, 1fr); */
 	}
 
 	.gallery-item {
