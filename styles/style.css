@@ -166,11 +166,12 @@
 	font-size: 18px;
 	color: var(--main-text-color);
 	letter-spacing: 0.2px;
+	line-height: 23.4px;
 }
 
 .about__link {
 	text-decoration: none;
-	text-shadow: 3px 2px var(--accent-color);
+	text-shadow: 3px 2px var(--shadow-color);
 }
 
 .about__link:hover {
