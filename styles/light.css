@@ -10,32 +10,34 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 	--main-text-color: #353430;
-	--h3-text-color: #353430;
+	--text-color: #353430;
 	--title-color: #ffc2e6;
 	--shadow-color: #ff8dcb;
 	--heading-bg-color: #ff8dcb;
+	--menu-hover-cover: rgba(53, 52, 48, 0.4);
 	--accent-color: #353430;
 	--bg-color: #fff1f7;
 	--bg-image: url('../images/cover-image-light.png');
 }
 
-.theme-light .decoration-text-theme-dark {
+.theme-light .decoration-text {
 	display: none;
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
 		--main-text-color: #353430;
-		--h3-text-color: #353430;
+		--text-color: #353430;
 		--title-color: #ffc2e6;
 		--shadow-color: #ff8dcb;
 		--heading-bg-color: #ff8dcb;
+		--menu-hover-cover: rgba(53, 52, 48, 0.4);
 		--accent-color: #353430;
 		--bg-color: #fff1f7;
 		--bg-image: url('../images/cover-image-light.png');
 	}
 
-	.decoration-text-theme-dark {
+	.decoration-text {
 		display: none;
 	}
 }
